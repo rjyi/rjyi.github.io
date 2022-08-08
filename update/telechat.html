@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>更新检查</title>
+</head>
+<body>
+<pre><code id="json"></code></pre>
+</body>
+<script type="text/javascript">
+    let btn = document.querySelector('#json');
+    let data =
+        {
+            "hasUpdate": true,
+            "NoIgnorable": false,
+            "versionCode": 2634,
+            "versionName": "8.7.2",
+            "updateLog": "\n1.合并上游最新代码。\n2.优化中英文语言包内容。",
+            "apkUrl": "https://gitee.com/yiruijie/update/attach_files/955256/download/Update_V1.0.apk",
+            "webUrl": "https://yirj.gitee.io/updates",
+            "apkSize": "41.7MB"
+        };
+    btn.textContent = JSON.stringify(data, null, 2);
+</script>
+</html>
