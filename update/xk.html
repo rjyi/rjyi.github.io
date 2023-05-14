@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>侠客解析更新服务</title>
+</head>
+<body>
+<pre id="json"></pre>
+</body>
+<script type="text/javascript">
+    let btn = document.querySelector('#json');
+    let data =
+        {
+            "NoIgnorable": false, //可忽略更新
+            "versionCode": 41,   //服务端版本号
+            "versionName": "3.9.5", //服务端版本名
+            "updateLog": "- 新增图集轮播单张下载；\n- 调整视频号接口及修复；\n- 修复下载后不显示相册；\n- 优化检测链接弹窗提示；\n- 优化部分解析提示弹窗；\n- 更新捐赠支持人员名单；", //更新内容
+            "webUrl": "https://yirj.lanzoub.com/iJZk60ttj6mb",//云盘下载APK的网址
+            "forumUrl": "https://yirj.lanzoub.com/iJZk60ttj6mb",//论坛下载APK的网址
+            "apkSize": "4.70MB", //新版本大小
+            "qKey": "Esk5hC9tybmxB1hAf5eA1G1UXCRaJIUs" //key
+        };
+    btn.textContent = JSON.stringify(data, null, 2);
+</script>
+</html>

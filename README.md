@@ -1,12 +1,10 @@
-# 个人组织网站导航
+# 个人网页导航
 
-| 名称 | 地址  | 用途 |
-| ---  | ---- |----|
-| README.md |  [https://yirjs.github.io](https://yirjs.github.io)    | 个人静态网页导航   |
-| music|   [https://yirjs.github.io/music](https://yirjs.github.io/music)    | 小黑解压音乐   |
-| update|  [https://yirjs.github.io/update/jx](https://yirjs.github.io/update/jx)   | 短视频解析更新   |
-| update|  [https://yirjs.github.io/update/telechat](https://yirjs.github.io/update/telechat)   | 电聊更新   |
-| home |   [https://yirjs.github.io/home/jx](https://yirjs.github.io/home/jx)    |   短视频解析主页  |
-| 某 |   [https://yirjs.github.io/](https://yirjs.github.io/)    |   某  |
-| 某 |   [https://yirjs.github.io/](https://yirjs.github.io/)    |   某  |
-| 某 |   [https://yirjs.github.io/](https://yirjs.github.io/)    |   某  |
+| 名称    | 地址                                                             | 用途     |
+|-------|----------------------------------------------------------------|--------|
+| README | [https://yirj.eu.org](https://yirj.eu.org)                     | 个人网页导航 |
+| home  | [https://yirj.eu.org/home/xk](https://yirj.eu.org/home/xk)     | 侠客解析主页 |
+| home  | [https://yirj.eu.org/home/jx](https://yirj.eu.org/home/jx)     | 聚合解析主页 |
+| update | [https://yirj.eu.org/update/xk](https://yirj.eu.org/update/xk) | 侠客解析更新 |
+| update | [https://yirj.eu.org/update/jx](https://yirj.eu.org/update/jx) | 聚合解析更新 |
+| 某某某   | [https://yirj.eu.org/](https://yirj.eu.org/)                   | 某某某    |
