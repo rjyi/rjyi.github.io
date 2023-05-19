@@ -576,7 +576,7 @@ dl, ol, ul {
     opacity: .8;
     z-index: -1;
     background: #4776E6;
-    background-image: linear-gradient(to left, rgba(37, 92, 253, 0.85), rgba(59, 70, 236, 0.85), rgba(87, 64, 202, 0.85), rgba(108, 60, 187, 0.85), rgba(115, 0, 189, 0.85));
+    background-image: linear-gradient(to right, rgba(37, 92, 253, 0.85), rgba(59, 70, 236, 0.85), rgba(87, 64, 202, 0.85), rgba(108, 60, 187, 0.85), rgba(115, 0, 189, 0.85));
 }
 
 .svg-shape-bottom .bottom-shape {
@@ -683,7 +683,7 @@ dl, ol, ul {
  * 06. About Section Style
  *************************************/
 .about-area {
-    background: #f4f7fa;
+    /*background: #f4f7fa;*/
 }
 
 .about-img {
@@ -718,7 +718,7 @@ dl, ol, ul {
  * 07.Feature Section Style
  *************************************/
 .feature-area {
-    background: #fff;
+    background: #f4f7fa;
 }
 
 .feature-area .section-title {
@@ -841,7 +841,7 @@ dl, ol, ul {
     opacity: .7;
     z-index: -1;
     background: #4776E6;
-    background-image: linear-gradient(to left, rgba(37, 92, 253, 0.85), rgba(59, 70, 236, 0.85), rgba(87, 64, 202, 0.85), rgba(108, 60, 187, 0.85), rgba(115, 0, 189, 0.85));
+    background-image: linear-gradient(to right, rgba(37, 92, 253, 0.85), rgba(59, 70, 236, 0.85), rgba(87, 64, 202, 0.85), rgba(108, 60, 187, 0.85), rgba(115, 0, 189, 0.85));
 }
 
 .video-content .video-btn {
@@ -1301,7 +1301,7 @@ dl, ol, ul {
     background-size: cover;
     background-position: center center;
     z-index: 1;
-    margin-top: 80px;
+    margin-top: 0px;
 }
 
 .download-area::after {
@@ -1315,15 +1315,15 @@ dl, ol, ul {
     opacity: .7;
     z-index: -1;
     background: #4776E6;
-    background-image: linear-gradient(to left, rgba(37, 92, 253, 0.85), rgba(59, 70, 236, 0.85), rgba(87, 64, 202, 0.85), rgba(108, 60, 187, 0.85), rgba(115, 0, 189, 0.85));
+    background-image: linear-gradient(to right, rgba(37, 92, 253, 0.85), rgba(59, 70, 236, 0.85), rgba(87, 64, 202, 0.85), rgba(108, 60, 187, 0.85), rgba(115, 0, 189, 0.85));
 }
 
 .download-app-img {
-    margin-top: -80px;
+    margin-top: 20px;
 }
 
 .download-app-text {
-    padding: 100px 0;
+    padding: 120px 0;
     text-align: left;
 }
 
