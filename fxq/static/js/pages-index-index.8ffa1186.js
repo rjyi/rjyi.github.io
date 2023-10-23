@@ -1208,7 +1208,7 @@
                                 e.confirm && t.setLockVip(!0)
                             }
                         })) : (uni.hideLoading(), uni.showToast({
-                            title: "验证失败,请关注【小黑侠】发送识别码",
+                            title: "验证失败！请关注【小黑侠】回复【识别码】获取",
                             icon: "none"
                         }))
                     }), 1e3)
