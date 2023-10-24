@@ -2226,8 +2226,8 @@ body.mdui-locked {
 }
 
 .mdui-color-indigo {
-    background-color: #007BFF !important;
-    color: #fff !important
+    background-color: #FFF !important;
+    color: #000 !important
 }
 
 .mdui-color-indigo-50 {
