@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--头文件-->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>侠客优卡</title>
+    <link rel="stylesheet" href="./css/layuimini.css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link id="layuicss-laydate" rel="stylesheet" href="./css/laydate.css" media="all">
+    <link id="layuicss-layer" rel="stylesheet" href="./css/layer.css" media="all">
+    <link id="layuicss-skincodecss" rel="stylesheet" href="./css/code.css" media="all">
+    <link rel="stylesheet" href="./css/layui.css" media="all">
+    <link rel="stylesheet" href="./css/mdui.min.css" media="all">
+    <script src="./js/layui.js" charset="utf-8"></script>
+    <script src="./js/jquery-3.4.1.min.js" charset="utf-8"></script>
+    <script src="./js/mdui.min.js"></script>
+</head>
+<!--页面-->
+<body class="mdui-bottom-nav-fixed mdui-loaded">
+
+<!--弹窗提示-->
+<div class="overlay" id="overlay">
+    <div class="popup">
+        <!--<span class="close-btn" onclick="closePopup()">&times;</span>-->
+        <h2 class="center-align" style="margin-top: -10px;margin-bottom: 10px;">必看提醒</h2>
+        <p class="left-align">
+            ① 办理前联系下方客服！确认套餐下单开卡（切勿盲目下单）；<br/>
+            ②激活24小时内按要求充值参加活动，才可以享受所示优惠套餐；<br/>
+            ③同一运营商30天内一人一卡，不可重复办理；<br/>
+            ④实名购卡。入网身份信息需和签收激活身份信息保持一致！</p>
+        <button class="btn" onclick="closePopup()">已知晓</button>
+    </div>
+</div>
+
+<!--关闭弹窗-->
+<script>
+    function closePopup() {
+        var overlay = document.getElementById("overlay");
+        overlay.style.display = "none";
+    }
+</script>
+
+<!--顶部图片-->
+<div class="swiper-slide">
+    <img id="ttlj" style="display: inline-block; width: 100%; max-width: 100%; height: auto;border-radius: 10px;"
+         src="img/顶图.png" alt="">
+</div>
+
+<!--滚动公告-->
+<div class="row" style="text-align:left;background-color:transparent;font-size:16px;font-weight:bold;padding:10px 0;">
+    <marquee id="gdgg" behavior="scroll">本店只受理官方正规手机卡，为保障您的订单正常发货，下单前可联系下方客服咨询！</marquee>
+</div>
+
+<!--嵌套网页-->
+<iframe id="xdlj"
+        src="https://91haoka.cn/91haoka_platform/#/minishop?share_id=461254&shop_name=%25E4%25BE%25A0%25E5%25AE%25A2%25E4%25BC%2598%25E5%258D%25A1"
+        style="border-width: 0;width: 100vw;height: 85vh;overflow:hidden;">
+</iframe>
+
+<!--底部提示-->
+<b>
+    <div id="dbwz" style="text-align:center;color:SlateBlue">激活后按要求参加充值活动，才可以享受所示优惠套餐！</div>
+</b>
+
+<!--底栏按钮-->
+<div class="mdui-bottom-nav mdui-bottom-nav-text-auto  mdui-color-indigo">
+    <a id="hklb" href="https://yirj.eu.org/xkyk"
+       class="mdui-ripple mdui-ripple-white mdui-bottom-nav-active">
+        <i class="mdui-icon material-icons"><img src="img/底栏1.png" alt=""></i>
+        <label>号卡列表</label>
+    </a>
+    <a id="cxdd" href="http://91haoka.cn/webapp/merchant/new_query.html?code=meYaSHh5smQW9%2BbY8%2FigtA%3D%3D"
+       class="mdui-ripple mdui-ripple-white mdui-bottom-nav-active">
+        <i class="mdui-icon material-icons"><img src="img/底栏2.png" alt=""></i>
+        <label>查询订单</label>
+    </a>
+    <a id="zxkf" href="https://yirj.top/xkyk/img/%E5%AE%A2%E6%9C%8D.png"
+       class="mdui-ripple mdui-ripple-white mdui-bottom-nav-active">
+        <i class="mdui-icon material-icons"><img src="img/底栏3.png" alt=""></i>
+        <label>在线客服</label>
+    </a>
+</div>
+
+</body>
+</html>
