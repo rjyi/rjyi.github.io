@@ -3847,36 +3847,36 @@
                                     color: "#3498DB"
                                 }, {
                                     id: 2,
-                                    text: "恋爱版",
+                                    text: "恋爱模式",
                                     color: "#F39C12"
                                 }];
                                 this.lockVip && t.push({
                                     id: 3,
-                                    text: "情侣版",
+                                    text: "情侣模式",
                                     color: "#9B59B6"
                                 }, {
                                     id: 4,
-                                    text: "高级版",
+                                    text: "高级模式",
                                     color: "rgb(10, 185, 156)"
                                 }, {
                                     id: 5,
-                                    text: "私密版",
+                                    text: "私密模式",
                                     color: "#FF00FF"
                                 }, {
                                     id: 8,
-                                    text: "SM版(进阶)",
+                                    text: "SM进阶模式",
                                     color: "#ff0000"
                                 }, {
                                     id: 9,
-                                    text: "挑战版(户外)",
+                                    text: "户外挑战模式",
                                     color: "#ffaaff"
                                 }, {
                                     id: 10,
-                                    text: "男仆版(调教)",
+                                    text: "男仆调教模式",
                                     color: "#aaaaff"
                                 }, {
                                     id: 11,
-                                    text: "女仆版(调教)",
+                                    text: "女仆调教模式",
                                     color: "#ff55ff"
                                 }, {
                                     id: 6,

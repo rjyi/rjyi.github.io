@@ -1113,56 +1113,56 @@
                         hot: !1
                     }, {
                         id: 2,
-                        text: "恋爱版",
+                        text: "恋爱模式",
                         url: "/pagesA/chess/chess?mode=2",
                         goFlag: !1,
                         lockFlag: !1,
                         hot: !1
                     }, {
                         id: 3,
-                        text: "情侣版",
+                        text: "情侣模式",
                         url: "/pagesA/chess/chess?mode=3",
                         goFlag: !1,
                         lockFlag: !0,
                         hot: !0
                     }, {
                         id: 4,
-                        text: "高级版",
+                        text: "高级模式",
                         url: "/pagesA/chess/chess?mode=4",
                         goFlag: !1,
                         lockFlag: !0,
                         hot: !0
                     }, {
                         id: 5,
-                        text: "私密版",
+                        text: "私密模式",
                         url: "/pagesA/chess/chess?mode=5",
                         goFlag: !1,
                         lockFlag: !0,
                         hot: !0
                     }, {
                         id: 8,
-                        text: "SM版(进阶)",
+                        text: "SM进阶模式",
                         url: "/pagesA/chess/chess?mode=8",
                         goFlag: !1,
                         lockFlag: !0,
                         hot: !0
                     }, {
                         id: 9,
-                        text: "挑战版(户外)",
+                        text: "户外挑战模式",
                         url: "/pagesA/chess/chess?mode=9",
                         goFlag: !1,
                         lockFlag: !0,
                         hot: !0
                     }, {
                         id: 10,
-                        text: "男仆版(调教)",
+                        text: "男仆调教模式",
                         url: "/pagesA/chess/chess?mode=10",
                         goFlag: !1,
                         lockFlag: !0,
                         hot: !0
                     }, {
                         id: 11,
-                        text: "女仆版(调教)",
+                        text: "女仆调教模式",
                         url: "/pagesA/chess/chess?mode=11",
                         goFlag: !1,
                         lockFlag: !0,
@@ -1176,7 +1176,7 @@
                         hot: !0
                     }, {
                         id: 7,
-                        text: "自定义",
+                        text: "自定义模式",
                         goFlag: !1,
                         lockFlag: !0,
                         hot: !1
