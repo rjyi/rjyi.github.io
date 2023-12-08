@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>飞行棋更新</title>
+</head>
+<body>
+<pre id="json"></pre>
+</body>
+<script type="text/javascript">
+    let btn = document.querySelector('#json');
+    let data =
+        {
+            "cancelable": true,
+            "versionCode": 5,
+            "popupTitle": "温馨提醒",
+            "popupMessage": "<font color='#000000'>情侣飞行棋, 生活小情趣! 情侣升温神器来啦! 快和对象一起愉快玩耍吧! </font><br><br><font color='#008b8b'>识别码 获取途径：请关注微信公众号【小黑侠】回复【识别码】获取！</font>",
+            "popupLeftBtn": "不再提醒",
+            "showCenterBtn": false,
+            "popupCenterBtn": "进入网页版",
+            "popupCenterBtnUrl": "http://fxq.likesyou.org",
+            "popupRightBtn": "下次提醒",
+            "fxqUrl": "https://yirj.top/fxq"
+        };
+    btn.textContent = JSON.stringify(data, null, 2);
+</script>
+</html>

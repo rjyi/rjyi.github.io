@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>三楼签到更新</title>
+</head>
+<body>
+<pre id="json"></pre>
+</body>
+<script type="text/javascript">
+    let btn = document.querySelector('#json');
+    let data =
+        {
+            "cancelable": false,
+            "versionCode": 6,
+            "versionName": "1.6",
+            "updateLog": "- 优化签到新增的板块；\n- 优化签到代码及速度；",
+            "webUrl": "https://www.123pan.com/s/CPO7Vv-Qgmr3.html",
+            "forumUrl": "https://www.123pan.com/s/CPO7Vv-Qgmr3.html",
+            "apkSize": "4.30MB",
+            "qKey": "4cGnuBLBIoeB8JyJEYk7yvJLi1yVmkLD",
+            "hintText": "- 软件免费买来的请退款并差评。<br>- 安卓13版本可能不可使用[随缘]。",
+            "showUrlBtn": false,
+            "hintUrl": "https://www.baidu.com"
+        };
+    btn.textContent = JSON.stringify(data, null, 2);
+</script>
+</html>
