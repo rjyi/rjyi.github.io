@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>侠客解析更新服务</title>
+    <title>侠客更新</title>
 </head>
 <body>
 <pre id="json"></pre>
@@ -11,17 +11,20 @@
     let btn = document.querySelector('#json');
     let data =
         {
-            "NoIgnorable": false, //可忽略更新
-            "versionCode": 44,   //服务端版本号
-            "versionName": "3.9.8", //服务端版本名
-            "updateLog": "- 优化接口以及部分代码；\n- 优化视频解析以及下载；\n- 优化智能提醒弹窗逻辑；\n- 更新捐赠支持人员名单；", //更新内容
-            "webUrl": "https://www.123pan.com/s/CPO7Vv-7zQr3.html",//云盘下载网址1
-            "forumUrl": "https://www.123pan.com/s/CPO7Vv-7zQr3.html",//云盘下载网址2
-            "apkSize": "4.77MB", //新版本大小
-            "qKey": "rVdD58M7Zyd5xzz3T5QJvRSsy4QW_kkn", //key
-            "hintText": "后续有问题会在此弹窗及时提醒哦！",  //智能提醒内容
-            "showUrlBtn": false, //显示按钮控制
-            "hintUrl": "https://www.baidu.com"  //按钮网址
+            "gogzhUpdate": true,
+            "NoIgnorable": false,
+            "versionCode": 48,
+            "versionName": "4.1.5",
+            "updateLog": "- 新增主界面侠客优卡入口；\n- 新增设置界面的侠客优卡；\n- 优化国内外接口解析代码；\n- 优化软件后续升级的方法；\n- 优化软件更新界面的展示；\n- 优化关于软件界面的内容；\n- 优化捐赠支持界面及内容；",
+            "webUrl": "https://www.123pan.com/s/CPO7Vv-HAar3.html",
+            "forumUrl": "https://www.123pan.com/s/CPO7Vv-HAar3.html",
+            "apkSize": "4.79MB",
+            "qKey": "PnubjuVIQVGVnO8CnYkSJgwnPi42Lbn2",
+            "hintText": "<font color='#000000'>捐赠为唯一收入鼓励大家捐赠支持！</font><br><font color='#000000'>推荐关注公众号 [小黑侠] 防止失联！</font><br><br><font color='#FF0000'>你还在用[资费贵流量少]的套餐吗？</font><br><font color='#FF0000'>快来选[官方正规大流量手机卡]吧！</font><br><font color='#FF0000'>详情点击  [\"访问网址\"]  即可挑选！</font>",
+            "showUrlBtn": true,
+            "hintUrl": "https://yirj.top/xkyk",
+            "xkgnw": "qsy",
+            "xkykUrl": "https://yirj.top/xkyk"
         };
     btn.textContent = JSON.stringify(data, null, 2);
 </script>
