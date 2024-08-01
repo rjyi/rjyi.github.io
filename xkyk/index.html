@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--头文件-->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>侠客优卡在线商城</title>
+    <link rel="shortcut icon" href="img/logo.webp">
+    <link rel="stylesheet" href="./css/layuimini.css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link id="layuicss-laydate" rel="stylesheet" href="./css/laydate.css" media="all">
+    <link id="layuicss-layer" rel="stylesheet" href="./css/layer.css" media="all">
+    <link id="layuicss-skincodecss" rel="stylesheet" href="./css/code.css" media="all">
+    <link rel="stylesheet" href="./css/layui.css" media="all">
+    <link rel="stylesheet" href="./css/mdui.min.css" media="all">
+    <script src="./js/layui.js" charset="utf-8"></script>
+    <script src="./js/jquery-3.4.1.min.js" charset="utf-8"></script>
+    <script src="./js/mdui.min.js"></script>
+    <script src="./js/nodebug.js"></script>
+</head>
+<!--页面-->
+<body class="mdui-bottom-nav-fixed mdui-loaded">
+
+<!--弹窗提示-->
+<div class="overlay" id="overlay">
+    <div class="popup">
+        <h2 class="center-align" style="margin-top: -10px;margin-bottom: 10px;">购卡下单须知</h2>
+        <p class="left-align">
+            ①办理前请联系在线客服！确认套餐后再下单开卡(勿盲目下单)；<br/>
+            ②到货激活后需按要求参加充值活动，才可以享受所示优惠套餐；<br/>
+            ③同一运营商一个月内一人仅限办理一张卡，不可以重复办理哦；<br/>
+            ④实名购卡！下单入网身份信息需和签收激活身份信息保持一致；</p>
+        <button class="btn" onclick="closePopup()">我已知晓！</button>
+    </div>
+</div>
+
+<!--关闭弹窗-->
+<script>
+    function closePopup() {
+        const overlay = document.getElementById("overlay");
+        overlay.style.display = "none";
+    }
+</script>
+
+<!--滚动公告-->
+<div class="row" style="text-align:left;font-size:16px;font-weight:bold;">
+    <marquee id="gdgg" behavior="scroll">本店只办理官方正规手机卡，为保障您的订单正常发货，下单前请先联系在线客服咨询！
+    </marquee>
+</div>
+
+<!--嵌套网页-->
+<iframe id="xdlj"
+        src="https://91haoka.cn/webapp/weixiaodian/index.html?shop_id=461254"
+        style="border-width: 0;width: 100vw;height: 85vh;overflow:hidden;">
+</iframe>
+
+<!--底部提示-->
+<b>
+    <div id="dbwz" style="text-align:center;font-weight:bold;color:red">
+        激活后需按要求参加充值活动，才可享受所示优惠套餐！
+    </div>
+</b>
+
+<!--底栏按钮-->
+<div class="mdui-bottom-nav mdui-bottom-nav-text-auto  mdui-color-indigo">
+    <a id="hklb" href="https://yirj.eu.org/xkyk"
+       class="mdui-ripple mdui-ripple-white mdui-bottom-nav-active">
+        <i class="mdui-icon material-icons"><img src="img/底栏1.png" alt=""></i>
+        <label>号卡列表</label>
+    </a>
+    <a id="lxkf" href="https://91haoka.cn/webapp/weixiaodian/kefu.html?shop_id=461254"
+       class="mdui-ripple mdui-ripple-white mdui-bottom-nav-active">
+        <i class="mdui-icon material-icons"><img src="img/底栏2.png" alt=""></i>
+        <label>在线客服</label>
+    </a>
+</div>
+</body>
+</html>
